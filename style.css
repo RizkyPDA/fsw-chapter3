@@ -5,8 +5,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  /* ini gak recommmended */
-  /*height: 4000px; */
   height: 100vh;
 }
 
@@ -23,16 +21,14 @@ section {
 #page1 {
   width: 100%;
   height: 100vh;
-  background: url("./img/bg\ image\ 1.png") no-repeat center;
+  background: url("img/bg-image-1.png") no-repeat center;
   background-size: cover;
+  object-fit: center;
 }
 .logo {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  /* font-weight: bold; */
   font-size: 24px;
-  /* line-height: 33px; */
-  /* identical to box height */
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #fff;
@@ -41,10 +37,7 @@ section {
 .menu-top-link {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  /* font-weight: bold; */
   font-size: 12px;
-  /* line-height: 33px; */
-  /* identical to box height */
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -75,7 +68,6 @@ section {
   padding: 0 30px;
 }
 #banner-content h1 {
-  font-size: 5rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
@@ -153,17 +145,10 @@ section {
   background-color: #fff;
 }
 
-/* .carousel-control-prev {
-  left: -95px;
-}
-.carousel-control-next {
-  right: -95px;
-} */
-
 #page3 {
-  padding-top: 62px;
+  padding-top: 80px;
   width: 100%;
-  height: 100vh;
+  height: 100vmin;
   background: url("img/Group.png") no-repeat center;
   background-size: cover;
 }
@@ -331,7 +316,8 @@ body {
 }
 
 .tl-item.active .tl-dot:before {
-  border-color: #448bff;
+  border-color: #ffffff;
+  border: solid;
   box-shadow: 0 0 0 4px rgba(68, 139, 255, 0.2);
 }
 
@@ -481,7 +467,6 @@ tl-item.active .tl-dot:before {
 }
 
 .tengkorak {
-  /* background-image: url("img/Group\ 3.png"); */
   object-fit: center;
 }
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Assignment Ch. 3 | Rizky </title>
+    <title>Challenge Ch. 3 | Rizky </title>
 
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -22,31 +22,25 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <!-- 
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-     -->
+  
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="style.css" rel="stylesheet" />
-    <!-- <link href="style2.css" rel="stylesheet" /> -->
+    
   </head>
   <body>
 
   <div class="wrapper">
     
-    <!-- page 1 -->
+    <!-- SECTION 1 : NAVBAR & MAIN TITLE -->
     <section id="page1">
 
-      <!-- Navigation-->
+      <!-- Navbar-->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand text-white logo" href="#page-top">LOGO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            Menu
-            <i class="fas fa-bars ms-1"></i>
-          </button>
+          <a class="navbar-brand text-white logo" href="#page1">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"></button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase m-lg-auto">
               <li class="nav-item"><a class="nav-link menu-top-link" href="#page1">Home</a></li>
@@ -56,9 +50,9 @@
             </ul>
           </div>
           <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link menu-top-link" href="#newsletter">Sign Up</a></li>
-                <li class="nav-item"><a class="nav-link menu-top-link" href="#newsletter">Login</a></li>
+            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+              <li class="nav-item"><a class="nav-link menu-top-link" href="#page6">Sign Up</a></li>
+              <li class="nav-item"><a class="nav-link menu-top-link" href="#page6">Login</a></li>
           </div>
         </div>
       </nav>
@@ -66,20 +60,23 @@
       <!-- main-title -->
       <div id="banner">
         <div id="banner-content">
-          <h1>Play traditional game</h1>
-          <h3 class="font-weight-lighter">Experience new traditional game play</h3>
-          <button type="button" class="btn btn-lg btn-warning button-action">Play Now</button>
+          <h1 class="display-2">Play traditional game</h1>
+          <h3 class="lead">Experience new traditional game play</h3>
+          <div>
+          <a class="btn btn-lg btn-warning button-action p-3 d-inline-block" href="#page6">Play Now</a>
+          </div>
         </div>
       </div>
       
       <!-- page1-footer -->
       <div id="page1-footer" class="mx-auto text-center">
-          <p>The story</p>
-          <img src="img/scroll down.png" type="button" alt="">
+        <p>The story</p>
+        <a href="#page2">
+        <img src="img/scroll down.png" type="button" alt=""></a>
       </div>
     </section>
 
-    <!-- page2 -->
+    <!-- SECTION 2 : CAROUSEL -->
     <section id="page2">
       <div class="container">
         <div class="row">
@@ -127,17 +124,20 @@
       <div>
     </section>
 
-    <!-- page3 -->
+    <!-- SECTION 3 : FEATURES & TIMELINE -->
     <section id="page3">
-        <div id="page3-wrapper">
-            <div class="row p-5 justify-content-end">
-                <div class="col-lg-6">
-                <h3 class="lead font-weight-light text-light mb-md-3 p-4 pt-5">What's so special?</h3>
-                <h1 class="display-2 text-light text-uppercase p-4">Features</h1>
+      <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6 pt-5">
+                  <div>
+                <h3 class="lead font-weight-light text-light mb-0 p-sm-4">What's so special?</h3>
+                </div>
+                <div class="col-lg-4 pb-0">
+                <h1 class="display-2 text-light text-uppercase p-4 pt-md-0">Features</h1>
+                </div>
                 </div>
             </div>
-
-            <div class="page-content page-container bg-transparent" id="page-content">
+        <div class="page-content page-container bg-transparent" id="page-content">
       <div class="padding">
         <div class="row justify-content-end">
           <div class="col-lg-6">
@@ -150,35 +150,26 @@
                 </div>
               </div>
               <div class="tl-item">
-                <div class="tl-dot b-primary"></div>
+                <div class="tl-dot b-white mt-0"></div>
                 <div class="tl-content">
                   <div class="text-warning text-uppercase">Game Suit</div>
-                  <div class="tl-date text-muted mt-1"></div>
-                </div>
+                  </div>
               </div>
               <div class="tl-item">
-                <div class="tl-dot b-danger"></div>
+                <div class="tl-dot b-white"></div>
                 <div class="tl-content">
                   <div class="text-warning text-uppercase">TBD</div>
-                  <div class="tl-date text-muted mt-1"></div>
+                </div>
+                </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-            
-
-
-            
-
-        
-        </div>
     </section>
 
-    <!-- SECTION 4 : SPECS -->
+    <!-- SECTION 4 : TABLE SPECS -->
     <section id="page4">
       <div class="container">
         <div class="row">
@@ -225,13 +216,13 @@
         </div>
       </div>
     </section>
-
+    <!-- SECTION 5 : QUOTE CARDS -->
     <section id="page5">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 align-self-center">
             <div class="top-scores">
-              <h1 class="h1 font-weight-light text-left mb-lg-0 mb-md-2 text-light text-uppercase">Top Scores</h1>
+              <h1 class="text-light text-uppercase text-left display-2">Top Scores</h1>
               <h6 class="lead font-weight-light mb-lg-0 mb-md-2 text-light text-left mt-3">This top score from various games provided<br> on this platform.</h6>
               <button type="button" class="btn btn-lg btn-warning button-action mt-5">See More</button>
             </div>
@@ -276,23 +267,23 @@
               <div class="col-lg-1 col-md-1 col-sm-1">
                 <i class="fab fa-twitter text-muted"></i>
               </div>
-              <p class="text-light mt-3 scorer-quote">"Snoop Dogg playing The Wildly Entertaining 'SOS' is Ridiculous."</p>
+              <p class="text-light mt-3 scorer-quote">"Snoop Dogg playing The Wildly Entertaining <br> 'SOS' is Ridiculous."</p>
               <p class="text-muted small">December 24, 2018</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    <!-- SECTION 6 : NEWSLETTER & FOOTER -->
     <section id="page6" class="bg-black">
       <div class="container">
-        <div class="row">
+        <div class="row p-5 mr-0 ml-0">
           <div class="col-lg-6">
             <div class="skull-wrap">  
               <img 
                   src="img/Group 3.png"
                   alt="skull"
-                  class="img-fluid "
+                  class="img-fluid align-self-center "
                 />
             </div>
           </div>
@@ -307,7 +298,7 @@
               <div class="col">
                 <div id="input-email" class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label text-secondary">Your email Address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="your@binar.co.id">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@binar.co.id">
                 </div>
               </div>
               <div class="col">
@@ -317,32 +308,22 @@
               </div>
               </div>
             </div>
-            <!-- <form class="form-inline">
-              <label for="inputPassword5" class="form-label">Password</label>
-              <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-              
-              <button type="submit" class="btn btn-warning px-sm-5 d-inline-block mb-2 border-0">Subscribe Now</button>
-            </form> -->
             
           </div>
         </div>
       </div>
     </section>
-
+    <!-- footer -->
     <section id="footer">
-    
       <div class="container-footer">
-        
         <div class="card-footer">
-
           <div class="footer-menu pb-4">
-            <a href="#page1" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Main</a>
-            <a href="#page2" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">About</a>
-            <a href="#page3" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Game Features</a>
-            <a href="#page4" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">System Requirements</a>
-            <a href="#page5" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Quotes</a>  
+          <a href="#page1" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Main</a>
+          <a href="#page2" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">About</a>
+          <a href="#page3" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Game Features</a>
+          <a href="#page4" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">System Requirements</a>
+          <a href="#page5" class="text-light text-uppercase footer-text text-decoration-none font-weight-bolder">Quotes</a>  
           </div>
-                     
           <div class="footer-icon">
           <a href="#"><i class="fab fa-facebook-f text-light"></i></a>
           <a href="#"><i class="fab fa-twitter text-light"></i></a>
@@ -350,26 +331,24 @@
           <a href="#"><i class="fab fa-twitch text-light"></i></a>
           </div>
         </div>  
-        
-        <div class="divider mb-4"></div>
-
-        <div class="row" style="font-size: 10px">
-          <div class="col-md-6 col-sm-6 col-xs-6">
+        <!-- footer divider -->
+        <div class="divider mb-4">
+          <div class="row" style="font-size: 10px">
+            <div class="col-md-6 col-sm-6 col-xs-6">
             <div class="pull-left">
               <p class="text-secondary policy">&copy; 2018 Your Games, Inc. All Rights Reserved</p>
             </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 text-light policy">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-light policy">
             <div class="mr-4 d-flex justify-content-end">
-              <div>Privacy Policy &nbsp;</div>
-              <div>| Terms of Services &nbsp;</div>
-              <div>| Code of Conduct</div>
+            <div>Privacy Policy &nbsp;</div>
+            <div>| Terms of Services &nbsp;</div>
+            <div>| Code of Conduct</div>
             </div>
           </div>
+          </div>
         </div>
-        
       </div>
-    
     </section>
 
   </div>
